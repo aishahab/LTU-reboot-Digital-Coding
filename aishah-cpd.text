@@ -1,3 +1,14 @@
 TEST
 Aishah is giving an example.
-Remember to save
+
+Module / Session - date
+
+1.3. - 13/10/2020
+
+Reflection
+In todays sessions, we were introduced to git/github. We were shown a quick demo on the advantages of using vs code. We installed an extension onto vs code. We have done an introductory demonstration of how to commit changes in files to a repo that we cloned onto our machine. 
+We also learnt how Github stores the changes we make to the code:
+Yellow = changes made to the code
+Green = created file
+Red = deleted file
+Remember to save everytime I write new code so that the changes are saved. 
