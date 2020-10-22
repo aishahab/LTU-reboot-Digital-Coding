@@ -1,9 +1,13 @@
 div {
-    background-color: lavender;
-    color: lightgoldenrodyellow;
-    all: initial;
-    overflow: scroll;
-}
+    background-color: rgb(245, 241, 182);
+    color: rgb(243, 195, 245);
+    width: 70px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
 
 img {
     max-width: 500px;
