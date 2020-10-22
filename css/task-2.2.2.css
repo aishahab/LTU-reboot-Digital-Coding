@@ -1,20 +1,22 @@
 img {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 h1 {
     background-color: indigo;
-    color: coral;
+    color: rgb(206, 77, 30);
     padding: 30px;
+    font-size: large;
+    font-style: italic;
 }
 
 h2 {
-    background-color: darkmagenta;
+    background-color: rgb(99, 16, 99);
     color: honeydew;
 }
 
 
 li {
     background-color: darkblue;
-    color: darkgoldenrod;
+    color: rgb(107, 79, 7);
 }
