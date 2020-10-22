@@ -1,9 +1,16 @@
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    background: #e7c76e url('../images/bg.jpg');
+    letter-spacing:0.2px;
+    overflow: scroll;
+}
+
 img {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 h1 {
-    background-color: indigo;
     color: rgb(206, 77, 30);
     padding: 30px;
     font-size: large;
