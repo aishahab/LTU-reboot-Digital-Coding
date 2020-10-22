@@ -4,7 +4,14 @@ img {
 
 h1 {
     color: coral;
+    padding: 30px;
 }
+
+h2 {
+    background-color: darkmagenta;
+    color: honeydew;
+}
+
 
 li {
     background-color: darkblue;
