@@ -1,8 +1,7 @@
-body {
-    font-family: 'Play', sans-serif;
-    font-size: 16px;
-    background: #e7c76e url('../images/bg.jpg');
-    letter-spacing:0.2px;
+div {
+    background-color: lavender;
+    color: lightgoldenrodyellow;
+    all: initial;
     overflow: scroll;
 }
 
