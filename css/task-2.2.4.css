@@ -38,7 +38,7 @@ strong {
     background-color: rgb(15, 73, 131);
 }
 
-al li strong {
+ol li strong {
     color: green;
     background-color: black;
 }

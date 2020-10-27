@@ -32,13 +32,22 @@ p em {
     background-color: lightslategrey;
 }
 
-strong {
+p strong {
     font-size: 30px;
     color: maroon;
     background-color: rgb(15, 73, 131);
 }
 
-al li strong {
+ol li strong {
     color: green;
     background-color: black;
+}
+
+.yellow {
+    background: yellow;
+    color: black;
+}
+
+li.yellow {
+    background: blueviolet
 }
