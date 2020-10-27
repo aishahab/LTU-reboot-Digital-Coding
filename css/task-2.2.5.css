@@ -51,6 +51,7 @@ ol li strong {
 .black {
     background: black;
     color: chartreuse;
+    font-size: 40px;
 }
 
 li.yellow {
