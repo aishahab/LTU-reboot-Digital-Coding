@@ -1,0 +1,20 @@
+.container {
+    width: 98%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    }
+
+.search {
+    display: block;
+
+}
+
+.icon {
+    position: absolute;
+    bottom: 20px;
+    left: 280px;
+    background-color: white;
+    padding: 8px;
+    border: 2px solid red;
+}
