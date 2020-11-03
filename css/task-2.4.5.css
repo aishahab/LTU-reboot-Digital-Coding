@@ -1,0 +1,13 @@
+.sidebar {
+    float: left;
+    width: 400px;
+    background-color: rosybrown;
+    border: 2px solid slateblue;
+}
+
+main {
+    float: right;
+    width: 200px;
+    background-color: red;
+    border: 2px solid blue;
+}
