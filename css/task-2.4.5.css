@@ -5,7 +5,7 @@
     border: 2px solid slateblue;
 }
 
-main {
+.main {
     float: right;
     width: 400px;
     background-color: red;
