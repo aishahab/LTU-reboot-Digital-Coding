@@ -1,8 +1,8 @@
 
 var numberOfApples = 5;
 
-console.log('numberOfApples');
+console.log(numberOfApples);
 
-alert('numberOfApples');
+alert(numberOfApples);
 
-document.write('numberOfApples');
+document.write(numberOfApples);

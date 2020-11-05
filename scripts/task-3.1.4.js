@@ -2,6 +2,6 @@ var numberOfKittens = 5;
 var numberOfPuppies = 8;
 var numberOfAnimals = numberOfKittens + numberOfPuppies
 
-alert('numberOfAnimals');
+alert(numberOfAnimals);
 
-document.write('numberOfAnimals');
+document.write(numberOfAnimals);
