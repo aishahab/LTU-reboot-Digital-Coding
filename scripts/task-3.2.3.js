@@ -1,10 +1,6 @@
-function fullName (firstName, lastName) {
+function fullName( firstName, lastName ) {
 
- console.log (firstName + ' ' + lastName);    
-
+ return firstName + ' ' + lastName ;    
 }
 
-fullName ('Henry', 'Cavill');
-fullName ('Aishah', 'Bashir');
-fullName ('Sam', 'Johnson');
-fullName ('Allie', 'James');
+var userName = fullName('Henry', 'Cavill');
