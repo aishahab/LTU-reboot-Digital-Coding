@@ -1,24 +1,40 @@
-function drinkOrder(drink, size) {
+function calculator (number1, number2, operator) {
 
+var result = '';
 
-var drinkToLowerCase = drink.toLowerCase();
-
-
-switch (drinkToLowerCase) {
-    case 'cola':
-        console.log('You have ordered a ' + size + ' ' + drinkToLowerCase);
+switch (operator) {
+    case '+':
+        result = number1+number2;
+        console.log(number1 + ' + ' + number2 + ' = ' + result);
         break;
-
-    case 'lemonade':
-        console.log('You have ordered a ' + size + ' ' + drinkToLowerCase);
+    //addition
+    
+    case '-':
+        result = number1-number2;
+        console.log(number1 + ' - ' - number2 + ' = ' + result);
+        break;  
+    //subtraction
+    
+    case '/':
+        result = number1/number2;
+        console.log(number1 + ' / ' / number2 + ' = ' + result);
         break;
-
-    case 'orangeade':
-        console.log('You have ordered a ' + size + ' ' + drinkToLowerCase);
+    //division
+    
+    case '*':
+        result = number1*number2;
+        console.log(number1 + ' * ' * number2 + ' = ' + result);
         break;
-
+    //multplication
+    
+    case '%':
+        cresult = number1%number2;
+        console.log(number1 + ' % ' % number2 + ' = ' + result);
+        break;
+    //modulus
+    
     default:
-        console.log('The drink that you have tried to order does not exist');
+        console.log('ERROR');
         break;
 }
 
