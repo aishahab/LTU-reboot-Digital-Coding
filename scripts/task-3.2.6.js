@@ -12,11 +12,11 @@ console.log('Wear a coat')
 } else if ( temperature > 50 && temperature === 55) {
 console.log ('Its very hot')
 
-} else if (temperature > 50 && temperature === 55) {
+} else if (temperature > 50 || temperature === 55) {
 console.log ('Its extremely hot, looks like someone is going to get  burnt')
     
 } else {
 console.log('Rest easy in pants and a vest')
             }
 
-// logical operators && (AND) !! (OR) ! (NOT)
+// logical operators && (AND) || (OR) ! (NOT)
