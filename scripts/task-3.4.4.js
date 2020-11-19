@@ -14,7 +14,7 @@ ingredients: [
 '1 tbsp olive oil',
 '500g beef mince',
 'tomato sauce',
-'spaghetti',
+'spaghetti'
 ],
 directions: ['Make Bolognese sauce', 'Step 2', 'Step 3'],
 letsCook: function(){
