@@ -1,37 +1,61 @@
-//Create an object to hold information on your favorite recipe. Then display the properties on screen.​
-//Bonus Points: Create a loop to list all the ingredients.​
-
-//Recipe properties:​
-//recipeTitle (a string)​
-//servings (a number)​
-//ingredients (an array of strings)​
-//directions (a string)​
-
-var favouriteRecipe = {
-recipeTitle: 'Spaghetti Bolognese',
-servings: 6,
-ingredients: [
-'1 tbsp olive oil',
-'500g beef mince',
-'tomato sauce',
-'spaghetti',
-],
-directions: ['Make Bolognese sauce', 'Step 2', 'Step 3'],
-letsCook: function(){
-
-    console.log('Im hungry, lets cook' + favouriteRecipe, recipeTitle);
-}
-};
-
-
-//bonus part of task
-var ingredients = favouriteRecipe.ingredients
-
-for(var index = 0; index < ingredients.length; index){
-
-    //console.log(ingredients[index])
-}
-
-//console.log(Object.keys(favouriteRecipe));
-
-console.log(Object.entries(favouriteRecipe));
+let shoppingCart = [
+    {​​
+    name:"loaf of bread",
+    type:"food",
+    quantity:1,
+    price:.85
+    }​​,
+    {​​
+    name:"multipack beans",
+    type:"food",
+    quantity:1,
+    price:1
+    }​​,
+    {​​
+    name:"mushrooms",
+    type:"food",
+    quantity:10,
+    price:.1
+    }​​,
+    {​​
+    name:"can of beer",
+    type:"alcohol",
+    quantity:4,
+    price:1.1
+    }​​,
+    {​​
+    name:"prosecco",
+    type:"alcohol",
+    quantity:1,
+    price:8.99
+    }​​,
+    {​​
+    name:"steak",
+    type:"food",
+    quantity:2,
+    price:3.99
+    }​​,
+    {​​
+    name:"blue cheese",
+    type:"food",
+    quantity:1,
+    price:2.99
+    }​​,
+    {​​
+    name:"candles",
+    type:"home",
+    quantity:3,
+    price:1.99
+    }​​,
+    {​​
+    name:"cheesecake",
+    type:"food",
+    quantity:1,
+    price:4.99
+    }​​,
+    {​​
+    name:"onions",
+    type:"food",
+    quantity:3,
+    price:.4
+    }​​];
