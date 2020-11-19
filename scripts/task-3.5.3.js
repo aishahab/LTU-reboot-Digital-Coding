@@ -62,29 +62,39 @@ let shoppingCart = [
   
  // 1. Create a function that takes 1 argument (the arr)
 
- function discountForFood( arr ){
+ function discountAmount( arr, discountAmount, type ){
 
-    var totalPrice = 0; // 2. Create a variable inside the function called 'totalPrice'
+  var totalPrice = 0; // 2. Create a variable inside the function called 'totalPrice'
 
-    // 3. Loop through array of objects
-    for(var index = 0; index < arr.length; index++){
-    
-        // 4. If the item has a type of food add a 20% discount
-        if( arr[index].type === 'food' ){
+  // 3. Loop through array of objects
+  for(var index = 0; index < arr.length; index++){
 
-            var discount = ( arr[index].price * 20 ) /100;
+    // 4. If the item has a type of type add a discount
+    if( arr[index].type === type ){
 
-            totalPrice = totalPrice + ( arr[index].price - discount) * arr[index].quantity;
+      var discount = ( arr[index].price * discountAmount ) /100;
 
-        } else{
+      totalPrice = totalPrice + ( arr[index].price - discount) * arr[index].quantity;
 
-            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity);
-        }
+    } else if (type === 'any'){
+
+      var discount = ( arr[index].price * discountAmount ) /100;
+
+      totalPrice = totalPrice + ( arr[index].price - discount) * arr[index].quantity;
+
+    } else {
+
+      totalPrice = totalPrice + ( arr[index].price * arr[index].quantity);
 
     }
-    // 5/ Return the totalPrice variable
-    return totalPrice.toFixed(2);
+ 
+  }
 
- }
+  // 5/ Return the totalPrice variable
+  return totalPrice.toFixed(2);
 
- console.log(discountForFood(shoppingCart));
+}
+    
+console.log('All products have 20% discount : ' + discountAmount(shoppingCart, 20, 'any'));
+console.log('Food products have 15% discount : ' + discountAmount(shoppingCart, 15, 'food'));
+console.log('Alcohol products have 50% discount : ' + discountAmount(shoppingCart, 50, 'alcohol'));
