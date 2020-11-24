@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Task 3.6.2</title>
+    <title>Task 3.6.3</title>
 </head>
 <body>
 
-<div></div>
+<button id = "myBtn">Hover Over Me!</button>
 
 <script>
 
-var div = document.querySelector('div');
+var button = document.getElementById("myBtn");
 
-var pageBody = document.querySelector('body');
-
-var paragraph = document.createElement('p');
-var text = document.createTextNode('I am a paragraph');
-
-    paragraph.appendChild(text);
-
-    div.appendChild( paragraph );
+button.addEventListener('mouseover', function(event){
+    alert("You're beautiful!")
+});
 
 </script>
 
