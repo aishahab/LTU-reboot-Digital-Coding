@@ -22,13 +22,26 @@
     //FUNCTION fixstart(string)
     function fixStart(strString){
         //STORE the first character of the string
-        var firstCharacter = strString (0);
-        console.log(firstCharacter);
+    var firstCharacter = strString[0]       
+        //console.log(firstCharacter);
+        //console.log(firstCharacter.length);
         //LOOP through each character of the string
-
+        var newString = firstCharacter;
+        for(counter = 0; counter < strString.length; counter++){
+            currentLetter = strString[counter];
+            if(counter){
             //IF the string matches the first character replace with a *
+            if(strString[counter].toLowerCase() == firstCharacter || currentLetter.toUpperCase() == firstCharacter){
+            newString += '*';
+        } else {
+            newString += strString[counter];
+            }
+        }
     }
-    fixStart('Aishah Ambreen Bashir')
+    return newString;
+    }
+    var testString = fixStart('Aishah Ambreen Bashir')
+    consoe.log(testString);
 </script>
 </body>
 </html>
