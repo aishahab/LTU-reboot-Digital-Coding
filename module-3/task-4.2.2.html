@@ -3,34 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 4.2.1</title>
+    <title>Task 4.2.2</title>
 </head>
 <body>
     
+<headr>
+    <h1>Javascript task 4.2.2</h1>
+</headr>
+<main>
+    <p>To view this task, you will need to open the console.</p>
+</main>
+<aside>
 
+</aside>
+<footer>
+    <p>&copy; 2020</p>
+</footer>
 <script>
+    var objBookList = [
+        {
+            title:"The Hobbit",
+            author:"JRR Tolkien",
+            hasRead:false,
+        },
+        {
+                title:"The Lord of the Rings",
+                author:"JRR Tolkien",
+                hasRead:true,
+            },
+            {
+                title:"Harry Potter",
+                author:"JK Rowling",
+                hasRead:true,
+            },
 
-    //LOOP from 1-100
-    for(var counter = 1; counter <= 100; counter++){
-        //IF number is multiple of 3 and 5
-        if(counter % 3 == 0 && counter % 5 ==0){
-            //THEN output "fizzbuzz"
-            console.log('fizzbuzz');
-        }
-        //ELSE IF number is multiple of 5
-        else if (counter % 5 == 0){
-            //THEN output "buzz"
-            console.log('buzz');
-        }
-        //ELSE IF number is multiple of 3
-        else ig(counter % 3 == 0){
-            //THEN output "fizz"
-            console.log('fizz')
-        }
-        //ELSE 
-            //output number as number
-    }
-
+    ];
+    //LOOP through each item in the book list array
+    for(counter = 8; counter < arrBookList.length; counter ++){
+            var objCurrentBook = arrBookList[counter];
+            //THEN create a message to output that is {title} by {author}
+            var strMessage = objCurrentBook.title + ' by ' + objCurrentBook.author;
+            //IF the book has already been read
+            if(objCurrentBook.hasRead){
+                //THEN  prepend the message with "You have read "
+                strMessage = "You have read " + strMessage;
+            }
+            //ELSE 
+            else {
+                //THEN prepend the message with "You need to read " 
+                strMessage = "You need to read " + strMessage;
+            }
+            console.log(strMessage);
+            }
 </script>
 
 </body>
